@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:QedClientApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:dc="using:QedClientApp.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="QedClientApp.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="QedClientApp">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<StackPanel>
+		<TextBox Width="200" Text="{Binding Data.FirstNumber}" ></TextBox>
+		<TextBox Width="200" Text="{Binding Data.SecondNumber}"></TextBox>
+		<TextBox  Width="200" Text="{Binding Result}"></TextBox>
+		<Button Content="Add" Width="200" HorizontalAlignment="Center" Command="{Binding PerformOperation}"></Button>
+	</StackPanel>
+
+
+	
+
+
+</Window>

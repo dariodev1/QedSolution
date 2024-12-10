@@ -1,0 +1,4 @@
+﻿@QedAPI_HostAddress = https://localhost:7171
+
+GET {{QedAPI_HostAddress}}/addNumbers
+

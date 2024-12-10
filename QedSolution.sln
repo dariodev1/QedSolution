@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QedClientApp", "QedClientApp\QedClientApp.csproj", "{DE0E4041-B165-45BA-8285-C992526029B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QedAPI", "QedAPI\QedAPI.csproj", "{29DC3B83-98E7-4FC6-BAEA-8721848A4A29}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0E4041-B165-45BA-8285-C992526029B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0E4041-B165-45BA-8285-C992526029B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0E4041-B165-45BA-8285-C992526029B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0E4041-B165-45BA-8285-C992526029B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DC3B83-98E7-4FC6-BAEA-8721848A4A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DC3B83-98E7-4FC6-BAEA-8721848A4A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DC3B83-98E7-4FC6-BAEA-8721848A4A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DC3B83-98E7-4FC6-BAEA-8721848A4A29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
